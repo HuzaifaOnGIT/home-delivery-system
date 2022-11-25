@@ -1,4 +1,4 @@
-package com.te.hds.entity;
+package com.te.hds.dto;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 @Table(name = "delivery_person")
-public class DeliveryPerson {
+public class DeliveryPersonDto {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
